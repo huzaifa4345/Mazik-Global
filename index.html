@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mazik Global</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mazik Global</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Done Mazik Global</h2>
+            <p>Your trusted partner in global solutions.</p>
+            <a href="#services" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Done Mazik Global is a leading company in providing innovative solutions for global challenges. Our mission
+            is to deliver excellence and drive positive change worldwide.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>ERP and CRM Implementation</h3>
+            <p> Mazik Global offers implementation services for Microsoft Dynamics 365, including Enterprise Resource
+                Planning (ERP) and Customer Relationship Management (CRM) solutions. These implementations help
+                businesses streamline their operations, improve customer relationships, and drive growth.</p>
+        </div>
+        <div class="service">
+            <h3>Azure Cloud Solutions</h3>
+            <p>Mazik Global helps businesses migrate to and leverage the Microsoft Azure cloud platform. This includes
+                cloud infrastructure setup, migration services, and cloud management to ensure optimal performance and
+                cost-efficiency.</p>
+        </div>
+        <div class="service">
+            <h3>MazikCare</h3>
+            <p>This is a healthcare management solution built on Microsoft Dynamics 365. MazikCare offers modules for
+                patient engagement, care coordination, and health analytics, designed to improve the quality of care and
+                operational efficiency for healthcare providers.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"Mazik Global’s implementation of the MazikCare solution has transformed our healthcare operations. The
+                integrated patient management system has significantly improved our care coordination and patient
+                engagement, leading to better outcomes and enhanced patient satisfaction.” — Chief Information Officer,
+                Healthcare Provider"</p>
+            <p>Healthcare Industry:</p>
+        </div>
+        <div class="testimonial">
+            <p>"Mazik Global’s MazikEd platform has been a game-changer for our institution. The comprehensive education management system has streamlined our administrative processes and improved the overall learning experience for our students. Their team was highly professional and responsive throughout the implementation process.” — Dean of Academics, University"</p>
+            <p>Education Sector</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Done Mazik Global. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+    (function (d, m) {
+        var kommunicateSettings =
+            { "appId": "f4341a67a7807f6066493e975192dfac", "popupWidget": true, "automaticChatOpenOnNavigation": true };
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+</body>
+
+</html>
